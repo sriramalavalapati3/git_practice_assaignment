@@ -1,16 +1,16 @@
 // Check whether a string is palindrome or not.
 let str="aabbcc";
 let res="";
-for(let i=0;i<=str.length-1)
+for(let i=0;i<str.length;i++)
 {
-res+=str[i];
+res+=str[str.length-1-i];
+
 }
-if(res==str)
+if(res == str)
 {
-console/log("str is a palindrom");
+console.log("string is a Palindrome");
 }
 else
 {
-console.log("str is not a palindrome");
-}
+console.log("string is not a Palindrome");
 }
